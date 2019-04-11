@@ -1,6 +1,3 @@
-SCOM.AgentClearCache
-
-
 # SCOM.AgentClearCache
 
 
