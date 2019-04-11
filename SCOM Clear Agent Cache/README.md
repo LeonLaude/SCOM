@@ -1,4 +1,4 @@
-# SCOM.AgentClearCache
+# SCOM Clear Agent Cache
 
 
 ## Description
