@@ -5,12 +5,14 @@
 #
 # This is a simple script for clearing the SCOM agent cache on multiple agent-managed computers that are listed in a text file.
 #
-Write-Host "Enter the full path of your text file containing the server list." -ForegroundColor Cyan
+Write-Host "Enter the full path of your text file containing the server list.`n" -ForegroundColor Cyan
 $FilePath = Read-Host "Path"
 
-Write-Host "1. Getting the list of computers from the text file:"$FilePath`n -ForegroundColor Cyan
+Write-Host "`n1. Getting the list of computers from the text file:"$FilePath`n -ForegroundColor Cyan
 
 $Servers = Get-Content $FilePath
+
+Start-Sleep -s 3
 
 Write-Host "2. Stopping the Monitoring Agent service on the computers...`n" -ForegroundColor Cyan
 
@@ -23,7 +25,7 @@ Get-Service -ComputerName $Server -Name HealthService | Stop-Service
 
 Start-Sleep -s 3
 
-Write-Host "3. Renaming the existing 'Health Service State' folder to 'Health Service State Old' `n" -ForegroundColor Cyan
+Write-Host "3. Renaming the existing 'Health Service State' folder to 'Health Service State Old'.`n" -ForegroundColor Cyan
 
 ForEach ($Server in $Servers) 
 {  
@@ -54,4 +56,4 @@ Remove-Item -Path "\\$Server\C$\Program Files\Microsoft Monitoring Agent\Agent\H
 
 }
 
-Write-Host "`n6. Done!" -ForegroundColor Cyan
+Write-Host "`n6. Done!`n" -ForegroundColor Cyan
