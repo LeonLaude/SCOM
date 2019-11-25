@@ -1,4 +1,4 @@
-# SCOM Clear Agent Cache on Multiple Servers
+# SCOM Clear Agent Cache on Multiple Computers
 
 
 ## Description
