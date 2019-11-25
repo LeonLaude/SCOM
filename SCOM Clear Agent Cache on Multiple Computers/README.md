@@ -9,3 +9,8 @@ the script takes in computer names from a text file so you can clear the SCOM ag
 ```
 .\Clear-HealthServiceMultiple.ps1
 ```
+Provide the following information:
+
+- Full path of the text file
+
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/SCOM%20Clear%20Agent%20Cache%20on%20Multiple%20Computers/Media/Clear-HealthServiceMultiple_example.png)
