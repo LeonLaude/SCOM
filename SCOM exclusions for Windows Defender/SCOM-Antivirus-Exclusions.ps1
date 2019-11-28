@@ -1,4 +1,4 @@
-﻿# -------------------------------- 
+# -------------------------------- 
 # | Author: Leon Laude           | 
 # | Email:  leon.laude@gmail.com | 
 # -------------------------------- 
@@ -48,6 +48,11 @@ If ($GetSCOMVersion.UIVersion -eq "7.3.13142.0") {
 
     Start-Sleep -s 1
 
+    Write-Host `n"Adding Windows Defender exlusions for the 'Monitoringhost.exe' process." -ForegroundColor Cyan
+
+    # Adds Windows Defender exclusions for the 'Monitoringhost.exe' on the SCOM management server
+    Set-MpPreference -ExclusionProcess "Monitoringhost.exe"
+
     Write-Host `n"Successfully added the Windows Defender exclusions!" -ForegroundColor Green
 }
 
@@ -70,6 +75,13 @@ ElseIf ($GetSCOMVersion.UIVersion -eq "7.3.13261.0") {
 
     # Adds Windows Defender exclusions for the .edb, .chk and .log files on the SCOM management server
     Add-MpPreference -ExclusionExtension ".edb", ".chk", ".log"
+
+    Start-Sleep -s 1
+
+    Write-Host `n"Adding Windows Defender exlusions for the 'Monitoringhost.exe' process." -ForegroundColor Cyan
+
+    # Adds Windows Defender exclusions for the 'Monitoringhost.exe' on the SCOM management server
+    Set-MpPreference -ExclusionProcess "Monitoringhost.exe"
 
     Start-Sleep -s 1
 
@@ -98,6 +110,13 @@ ElseIf ($GetSCOMVersion.UIVersion -gt "7.2") {
 
     Start-Sleep -s 1
 
+    Write-Host `n"Adding Windows Defender exlusions for the 'Monitoringhost.exe' process." -ForegroundColor Cyan
+
+    # Adds Windows Defender exclusions for the 'Monitoringhost.exe' on the SCOM management server
+    Set-MpPreference -ExclusionProcess "Monitoringhost.exe"
+
+    Start-Sleep -s 1
+
     Write-Host `n"Successfully added the Windows Defender exclusions!" -ForegroundColor Green
 }
 
@@ -120,6 +139,13 @@ ElseIf ($GetSCOMVersion.UIVersion -gt "10.19") {
 
     # Adds Windows Defender exclusions for the .edb, .chk and .log files on the SCOM management server
     Add-MpPreference -ExclusionExtension ".edb", ".chk", ".log"
+
+    Start-Sleep -s 1
+
+    Write-Host `n"Adding Windows Defender exlusions for the 'Monitoringhost.exe' process." -ForegroundColor Cyan
+
+    # Adds Windows Defender exclusions for the 'Monitoringhost.exe' on the SCOM management server
+    Set-MpPreference -ExclusionProcess "Monitoringhost.exe"
 
     Start-Sleep -s 1
 
