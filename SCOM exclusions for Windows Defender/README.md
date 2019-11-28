@@ -11,4 +11,4 @@ Note: The Script will need to be run as administrator.
 ```
 .\SCOM-Antivirus-Exclusions.ps1
 ```
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/SCOM%20exclusions%20for%20Windows%20Defender/Media/SCOM-Antivirus-Exclusions_Example.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/SCOM%20exclusions%20for%20Windows%20Defender/Media/SCOM-Antivirus-Exclusions_example.png)
