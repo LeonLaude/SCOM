@@ -11,8 +11,8 @@ Provide the following information:
 
 **Example script:**
 
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Agents/SCOM_Agents.png)
+![alt text]()
 
 **Example output:**
 
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Agents/SCOM_Agents_result.png)
+![alt text]()
