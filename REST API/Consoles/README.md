@@ -2,7 +2,7 @@
 
 
 ## Description
-This page provides different SCOM REST API examples on how to retrieve all installed Operations Consoles on the agent computers.
+This page provides different SCOM REST API example on how to retrieve all installed Operations Consoles on the agent computers.
 
 ### Example
 ```
