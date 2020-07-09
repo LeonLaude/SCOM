@@ -1,9 +1,7 @@
-# SCOM REST API Examples
+# SCOM REST API
 
 
 ## Description
-This page provides different SCOM REST API examples done with PowerShell.
+This page provides different scripts and examples on how to retrieve data by calling the SCOM REST API.
 
-### Example
-```
 
