@@ -1,4 +1,3 @@
-﻿
 # Set the Header and the Body
 $SCOMHeaders = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
 $SCOMHeaders.Add('Content-Type', 'application/json; charset=utf-8')
@@ -12,6 +11,10 @@ $URIBase = 'http://<Your SCOM MS>/OperationsManager/authenticate'
 
 # Authentication
 $Authentication = Invoke-RestMethod -Method Post -Uri $URIBase -Headers $SCOMHeaders -body $JSONBody -UseDefaultCredentials -SessionVariable WebSession
+
+# Initiate the Cross-Site Request Forgery (CSRF) token, this is to prevent CSRF attacks
+$CSRFtoken = $WebSession.Cookies.GetCookies($UriBase) | ? { $_.Name -eq 'SCOM-CSRF-TOKEN' }
+$SCOMHeaders.Add('SCOM-CSRF-TOKEN', [System.Web.HttpUtility]::UrlDecode($CSRFtoken.Value))
 
 # The query which contains the criteria for our alerts
 $Query = @(@{ "classId" = ""
@@ -29,4 +32,3 @@ $Response = Invoke-RestMethod -Uri 'http://<Your SCOM MS>/OperationsManager/data
 # Print out the state results
 $State = $Response.rows
 $State
-
