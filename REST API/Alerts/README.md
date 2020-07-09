@@ -9,10 +9,10 @@ Provide the following information:
 
 - Change the following marked areas: **"Your SCOM MS"** with your SCOM Management server name, preferably the Fully Qualified Domain Name (FQDN), then run the script.
 
-**Example script:**
+**Get All alerts - Example script:**
 
 ![alt text]()
 
-**Example output:**
+**Get All alerts - Example output:**
 
 ![alt text]()
