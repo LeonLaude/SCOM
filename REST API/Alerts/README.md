@@ -8,20 +8,18 @@ Provide the following information:
 
 - Change the following marked areas: **"Your SCOM MS"** with your SCOM Management server name, preferably the Fully Qualified Domain Name (FQDN), then run the script.
 
-### Example - Get all alerts:**
+### Example - Get all alerts:
 ![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM_All_Alerts.png)
 
-### Example - Get all alerts output:**
+### Example - Get all alerts output:
 
 ![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM_All_Alerts_result.png)
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Get alerts by alert name - Example script:**
-
+### Example - Get alerts by alert name:
 ![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM_Alerts_AlertName.png)
 
-**Get alerts by alert name - Example output:**
-
+### Example - Get alerts by alert name output:
 ![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM_Alerts_AlertName_results.png)
