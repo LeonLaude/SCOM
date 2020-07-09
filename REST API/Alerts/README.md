@@ -14,7 +14,7 @@ Provide the following information:
 ![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM-All-Alerts.png)
 
 ### Output:
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM-All-Alerts-results.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM-All-Alerts-result.png)
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
