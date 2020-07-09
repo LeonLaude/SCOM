@@ -1,6 +1,6 @@
 # Set the Header and the Body
 $SCOMHeaders = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
-$SCOMHeaders.Add('Content-Type’,’application/json; charset=utf-8')
+$SCOMHeaders.Add('Content-Type','application/json; charset=utf-8')
 $BodyRaw = "Windows"
 $Bytes = [System.Text.Encoding]::UTF8.GetBytes($bodyraw)
 $EncodedText =[Convert]::ToBase64String($Bytes)
