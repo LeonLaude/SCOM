@@ -28,7 +28,7 @@ Provide the following information:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Example - Get alerts by severity and resolution state:
-![alt text]()
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM-Alerts-Severity-ResolutionState.png)
 
 ### Output:
-![alt text]()
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM-Alerts-Severity-ResolutionState-results.png)
