@@ -7,7 +7,7 @@ This page provides different SCOM REST API example on how to retrieve all SCOM a
 ### Example
 Provide the following information:
 
-- Change the following marked areas: **"Your SCOM MS"** with your SCOM Management server name, preferrably the Fully Qualified Domain Name (FQDN), then run the script.
+- Change the following marked areas: **"Your SCOM MS"** with your SCOM Management server name, preferably the Fully Qualified Domain Name (FQDN), then run the script.
 
 **Example script:**
 
