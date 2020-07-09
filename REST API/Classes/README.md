@@ -11,7 +11,7 @@ Provide the following information:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Example - Get a scom class:
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Classes/Images/SCOM_Classes.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Classes/Images/SCOM-Classes.png)
 
 ### Output:
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Classes/Images/SCOM_Classes_result.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Classes/Images/SCOM-Classes-result.png)
