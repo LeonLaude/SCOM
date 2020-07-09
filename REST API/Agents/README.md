@@ -6,7 +6,7 @@ This page provides different SCOM REST API example on how to retrieve all SCOM a
 
 ### Example
 ```
-
+https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Agents/SCOM_Agents.png?raw=true
 ```
 Provide the following information:
 
