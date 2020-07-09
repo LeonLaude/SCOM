@@ -2,7 +2,7 @@
 
 
 ## Description
-This page provides different SCOM REST API examples on how to retrieve SCOM all unsealed management packs.
+This page provides different SCOM REST API example on how to retrieve SCOM all unsealed management packs.
 
 ### Example
 ```
