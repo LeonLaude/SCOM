@@ -1,6 +1,6 @@
-﻿# Set the Header and the Body
+# Set the Header and the Body
 $SCOMHeaders = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
-$SCOMHeaders.Add('Content-Type’,’application/json; charset=utf-8')
+$SCOMHeaders.Add('Content-Type','application/json; charset=utf-8')
 $BodyRaw = "Windows"
 $Bytes = [System.Text.Encoding]::UTF8.GetBytes($bodyraw)
 $EncodedText =[Convert]::ToBase64String($Bytes)
@@ -27,5 +27,5 @@ $Response = Invoke-WebRequest -Uri 'http://<Your SCOM MS>/OperationsManager/data
 # Convert our response from JSON format to a custom object or hash table
 $Object = ConvertFrom-Json -InputObject $Response.Content
 
-# Print out the group results
+# Print out the object results
 $Object.scopeDatas
