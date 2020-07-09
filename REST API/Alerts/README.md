@@ -11,7 +11,7 @@ Provide the following information:
 ### Example - Get all alerts:
 ![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM_All_Alerts.png)
 
-### Example - Get all alerts output:
+### Output:
 ![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM_All_Alerts_result.png)
 
 
@@ -20,5 +20,5 @@ Provide the following information:
 ### Example - Get alerts by alert name:
 ![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM_Alerts_AlertName.png)
 
-### Example - Get alerts by alert name output:
+### Output:
 ![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM_Alerts_AlertName_results.png)
