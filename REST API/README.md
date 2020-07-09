@@ -6,5 +6,8 @@ This page provides different scripts and examples on how to retrieve data by cal
 
 The program supports a set of HTTP operations (methods) to create, retrieve, update, or delete access to the operational data
 
-For more information, see the official SCOM REST API reference guide:  
+For more information, see the official SCOM REST API documentation:  
+https://docs.microsoft.com/en-us/rest/operationsmanager/
+
+## Operations Manager REST API Reference
 https://docs.microsoft.com/en-us/rest/api/operationsmanager/
