@@ -1,4 +1,4 @@
-﻿# Set the Header and the Body
+# Set the Header and the Body
 $SCOMHeaders = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
 $SCOMHeaders.Add('Content-Type’,’application/json; charset=utf-8')
 $BodyRaw = "Windows"
@@ -10,7 +10,11 @@ $JSONBody = $EncodedText | ConvertTo-Json
 $UriBase = 'http://<Your SCOM MS>/OperationsManager/authenticate'
 
 # Authentication
-$Auth = Invoke-RestMethod -Method Post -Uri $UriBase -Headers $SCOMHeaders -Body $JSONBody -UseDefaultCredentials -SessionVariable WebSession
+$Authentication = Invoke-RestMethod -Method Post -Uri $UriBase -Headers $SCOMHeaders -Body $JSONBody -UseDefaultCredentials -SessionVariable WebSession
+
+# Initiate the Cross-Site Request Forgery (CSRF) token, this is to prevent CSRF attacks
+$CSRFtoken = $WebSession.Cookies.GetCookies($UriBase) | ? { $_.Name -eq 'SCOM-CSRF-TOKEN' }
+$SCOMHeaders.Add('SCOM-CSRF-TOKEN', [System.Web.HttpUtility]::UrlDecode($CSRFtoken.Value))
 
 # Criteria: Enter the displayname of the SCOM object
 $Criteria = "DisplayName LIKE '%System Center Operations Manager Console%'"
@@ -23,5 +27,5 @@ $Response = Invoke-WebRequest -Uri 'http://<Your SCOM MS>/OperationsManager/data
 # Convert our response from JSON format to a custom object or hash table
 $Object = ConvertFrom-Json -InputObject $Response.Content
 
-# Print out the group results
+# Print out the object results
 $Object.scopeDatas
