@@ -11,19 +11,19 @@ Provide the following information:
 
 **Get all alerts - Example script:**
 
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/SCOM_All_Alerts.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM_All_Alerts.png)
 
 **Get all alerts - Example output:**
 
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/SCOM_All_Alerts_result.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM_All_Alerts_result.png)
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Get alerts by alert name - Example script:**
 
-![alt text]()
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM_Alerts_AlertName.png)
 
 **Get alerts by alert name - Example output:**
 
-![alt text]()
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM_Alerts_AlertName_results.png)
