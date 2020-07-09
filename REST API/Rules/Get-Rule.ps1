@@ -1,4 +1,3 @@
-﻿
 # Set the Header and the Body
 $SCOMHeaders = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
 $SCOMHeaders.Add('Content-Type’, ’application/json; charset=utf-8')
@@ -13,6 +12,10 @@ $UriBase = 'http://<Your SCOM MS>/OperationsManager/authenticate'
 # Authentication
 $Authentication = Invoke-RestMethod -Method Post -Uri $UriBase -Headers $SCOMHeaders -Body $JSONBody -UseDefaultCredentials -SessionVariable WebSession
 
+# Initiate the Cross-Site Request Forgery (CSRF) token, this is to prevent CSRF attacks
+$CSRFtoken = $WebSession.Cookies.GetCookies($UriBase) | ? { $_.Name -eq 'SCOM-CSRF-TOKEN' }
+$SCOMHeaders.Add('SCOM-CSRF-TOKEN', [System.Web.HttpUtility]::UrlDecode($CSRFtoken.Value))
+
 # Criteria: Enter the displayname of the SCOM rule
 $Criteria = "DisplayName LIKE 'Processor % Processor Time Total Windows Server 2016 and 1709+'"
 
@@ -26,4 +29,3 @@ $Rule = ConvertFrom-Json -InputObject $Response.Content
 
 # Print out the rule result
 $Rule.rows
-
