@@ -11,10 +11,10 @@ Provide the following information:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Example - Get all SCOM consoles:
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Consoles/Images/SCOM_Consoles.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Consoles/Images/SCOM-Consoles.png)
 
 ### Output:
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Consoles/Images/SCOM_Consoles_result.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Consoles/Images/SCOM-Consoles-result.png)
 
 Here's the list of SCOM consoles from the Operations Console view:
 
