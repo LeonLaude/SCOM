@@ -12,6 +12,10 @@ $UriBase = 'http://<Your SCOM MS>/OperationsManager/authenticate'
 # Authentication
 $Authentication = Invoke-RestMethod -Method Post -Uri $UriBase -Headers $SCOMHeaders -Body $JSONBody -UseDefaultCredentials -SessionVariable WebSession
 
+# Initiate the Cross-Site Request Forgery (CSRF) token, this is to prevent CSRF attacks
+$CSRFtoken = $WebSession.Cookies.GetCookies($UriBase) | ? { $_.Name -eq 'SCOM-CSRF-TOKEN' }
+$SCOMHeaders.Add('SCOM-CSRF-TOKEN', [System.Web.HttpUtility]::UrlDecode($CSRFtoken.Value))
+
 # Criteria: Enter the displayname of the SCOM monitor
 $Criteria = "DisplayName LIKE '%SQL Server%'"
 
