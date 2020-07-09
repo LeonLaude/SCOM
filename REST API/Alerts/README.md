@@ -11,8 +11,8 @@ Provide the following information:
 
 **Get All alerts - Example script:**
 
-![alt text]()
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/SCOM_All_Alerts.png)
 
 **Get All alerts - Example output:**
 
-![alt text]()
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/SCOM_All_Alerts_result.png)
