@@ -23,7 +23,7 @@ Provide the following information:
 ![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM-Alerts-AlertName.png)
 
 ### Output:
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM_Alerts_AlertName_results.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM-Alerts-AlertName-results.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
