@@ -14,4 +14,4 @@ Provide the following information:
 ![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Agents/Images/SCOM-Agents.png)
 
 ### Output:
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Agents/Images/SCOM_Agents_result.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Agents/Images/SCOM-Agents-result.png)
