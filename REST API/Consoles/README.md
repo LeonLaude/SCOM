@@ -15,3 +15,6 @@ Provide the following information:
 
 ### Output:
 ![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Consoles/Images/SCOM_Consoles_result.png)
+
+Here's the list of SCOM consoles from the Operations Console view:
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Consoles/Images/SCOM_Consoles_in_console.png)
