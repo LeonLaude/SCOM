@@ -11,7 +11,7 @@ Provide the following information:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Example - Get SCOM monitors:
-![alt text]()
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Monitors/Images/SCOM_Monitors.png)
 
 ### Output:
-![alt text]()
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Monitors/Images/SCOM_Monitors_result.png)
