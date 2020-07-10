@@ -20,10 +20,10 @@ Provide the following information:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Example - Get alerts by alert name:
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM-Alerts-AlertName.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/REST-API-SCOM-Alert-Alertname.png)
 
 ### Output:
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/SCOM-Alerts-AlertName-results.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Alerts/Images/REST-API-SCOM-Alert-Alertname-result.png)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
