@@ -11,7 +11,7 @@ Provide the following information:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Example - Get all unsealed management packs:
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Unsealed%20Management%20Packs/Images/SCOM-UnsealedMPs.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Unsealed%20Management%20Packs/Images/REST-API-SCOM-UnsealedMPs.png)
 
 ### Output:
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Unsealed%20Management%20Packs/Images/SCOM-UnsealedMPs-results.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Unsealed%20Management%20Packs/Images/REST-API-SCOM-UnsealedMPs-result.png)
