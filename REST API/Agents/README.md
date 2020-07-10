@@ -11,7 +11,7 @@ Provide the following information:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Example - Get all SCOM agents:
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Agents/Images/SCOM-Agents.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Agents/Images/REST-API-SCOM-Agents.png)
 
 ### Output:
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Agents/Images/SCOM-Agents-result.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Agents/Images/REST-API-SCOM-Agents-result.png)
