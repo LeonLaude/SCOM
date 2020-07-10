@@ -11,7 +11,7 @@ Provide the following information:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Example - Get the health state of a computer:
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/States/Images/SCOM-States.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/States/Images/REST-API-SCOM-State.png)
 
 ### Output:
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/States/Images/SCOM-States-result.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/States/Images/REST-API-SCOM-State-result.png)
