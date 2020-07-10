@@ -10,8 +10,8 @@ https://docs.microsoft.com/en-us/rest/operationsmanager/
 
 ## Useful links
 
-### Operations Manager REST API Reference
+**Operations Manager REST API Reference**
 https://docs.microsoft.com/en-us/rest/api/operationsmanager/
 
-### Quick Start - SCOM REST API
+**Quick Start - SCOM REST API**
 https://thesystemcenterblog.com/2020/07/09/quick-start-scom-rest-api/
