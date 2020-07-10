@@ -11,7 +11,7 @@ Provide the following information:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Example - Get a SCOM rule:
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Rules/Images/SCOM_Rules.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Rules/Images/SCOM-Rules.png)
 
 ### Output:
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Rules/Images/SCOM_Rules_result.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Rules/Images/SCOM-Rules-result.png)
