@@ -11,7 +11,7 @@ Provide the following information:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Example - Get a SCOM group:
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Groups/Images/SCOM-Groups.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Groups/Images/REST-API-SCOM-Group.png)
 
 ### Output:
-![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Groups/Images/SCOM-Groups-results.png)
+![alt text](https://github.com/LeonLaude/SCOM/blob/master/REST%20API/Groups/Images/REST-API-SCOM-Group-result.png)
